@@ -1,0 +1,373 @@
+#mainNav{
+    background-color:rgb(40, 120, 40);
+    padding-top: 0!important;
+    padding-bottom: 0 !important;
+}
+#mainNav .navbar-toggler{
+    font-size:12px;
+    padding:13px;
+    padding-bottom: 15px!important;
+    padding-top: 15px!important;
+    text-transform:uppercase;
+    color:white;
+    background-color:rgb(50, 100, 50);
+    font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+#mainNav .navbar-brand{
+    margin-left: 2px;
+    color:white;
+    font-family:'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+}
+#mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
+    color:khaki;
+}
+#mainNav .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size:90%;
+    font-weight:400;
+    padding:.75em 0;
+    letter-spacing:1px;
+    font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+}
+#mainNav .navbar-nav .nav-item:hover .nav-link {
+    color: rgb(100, 200, 150);
+    border-bottom: 2px solid rgb(100, 200, 150);
+}
+.nav-link.active {
+    color: rgb(100, 200, 150)!important;
+    border-bottom: 2px solid rgb(100, 200, 150);
+}
+@media (min-width:992px){
+    #mainNav{
+        padding-top:25px;
+        padding-bottom:25px;
+        transition:padding-top .3s,padding-bottom .3s;
+        border:none;
+        background-color:rgba(0, 0, 0, 0.1);
+    }
+    #mainNav .navbar-brand{
+        margin-left: 15px;
+        font-size:1.75em;
+        transition:all .3s
+    }
+    #mainNav .navbar-nav .nav-item .nav-link{
+        padding:1.1em 1em!important
+    }
+    #mainNav.navbar-shrink{
+        padding-top:0;
+        padding-bottom:0;
+        background-color:rgb(40, 120, 40);
+    }
+    #mainNav.navbar-shrink .navbar-brand{
+        font-size:1.25em;
+    }
+}
+header.masthead{
+    text-align:center;
+    color:#fff;
+}
+.karosel {
+    filter: blur(2px);
+}
+header.masthead .intro-text{
+    padding-top:150px;
+    padding-bottom:100px;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+header.masthead .intro-text .intro-lead-in{
+    font-size:22px;
+    line-height:22px;
+    margin-bottom:5px;
+    font-family:'Droid Serif','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif,;
+}
+header.masthead .intro-text .intro-lead-out{
+    font-size:22px;
+    color:crimson;
+    line-height:22px;
+    margin-bottom:5px;
+    font-family:'Droid Serif','Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif,;
+}
+header.masthead .intro-text .intro-heading{
+    font-size:15px;
+    line-height:22px;
+    margin-bottom:5px;
+    font-family:Montserrat,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,
+}
+@media (min-width:768px){
+    header.masthead .intro-text{
+        padding-top:300px;
+        padding-bottom:200px;
+        text-shadow: 2px 2px 2px black;
+    }
+    header.masthead .intro-text .intro-lead-in{
+        font-size:50px;
+        line-height:40px;
+        margin-bottom:25px;
+        font-family:'Droid Serif',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+    }
+    header.masthead .intro-text .intro-lead-out{
+        font-size:50px;
+        line-height:40px;
+        color: crimson;
+        margin-bottom:25px;
+        font-family:'Droid Serif',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+    }
+    header.masthead .intro-text .intro-heading{
+        font-size:30px;
+        line-height:75px;
+        margin-bottom:50px;
+        font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
+    }
+}
+.judulvisi {
+    color: rgb(100, 200, 150);
+    margin-bottom: 15px;
+}
+hr.garis {
+    width: 15%;
+    border-bottom: 2px solid rgb(100, 200, 150);
+}
+#visi {
+    padding-top: 100px;
+}
+#visi .text-muted {
+    padding-left: 10px;
+    font-weight: bold;
+    border-left: 2px solid cadetblue; 
+}
+#visi .text-justify {
+    margin-right: 35px;
+}
+.misi {
+    margin-left: 33px;
+}
+#skema {
+    padding-top: 100px;
+}
+.border {
+    border: none!important;
+}
+.border span {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+.logo {
+    font-size: 50pt;
+    margin-top: 40px;
+    color: cadetblue;
+}
+#pengurus {
+    padding-top: 100px;
+}
+.people {
+    font-size: 50pt;
+    margin-top: 40px;
+    color: cadetblue;
+}
+.bpengurus {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 5px solid white;
+    height: 200px;
+}
+.bpengurus .border {
+    background-color: #fff;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    margin-top: -90px;
+    border: 5px solid white!important;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+#galery {
+    padding-top: 100px;
+}
+img.grayscale {
+	filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	/* Firefox 3.5+,IE10 */ filter:gray;
+	/* IE6-9 */ -webkit-filter:grayscale(100%);
+	/* Chrome 19+& Safari 6+*/ -webkit-transition:all .6s ease;
+	/* Fade to color for Chrome and Safari */ -webkit-backface-visibility:hidden;
+	/* Fix for transition flickering */
+}
+img.grayscale:hover {
+	filter:none;
+	-webkit-filter:grayscale(0%);
+}
+.row-offset-0 {
+	margin-left:0;
+	margin-right:0;
+}
+.row-offset-0>* {
+	padding-left:0;
+	padding-right:0;
+}
+.effects {
+	padding-left:15px;
+}
+.effects .img {
+	position:relative;
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+}
+.effects .img:nth-child(n) {
+	margin-right:5px;
+}
+.effects .img:first-child {
+	margin-left:-15px;
+}
+.effects .img:last-child {
+	margin-right:0;
+}
+.effects .img img {
+	display:block;
+	margin:0;
+	padding:0;
+	height:auto;
+}
+.overlay {
+	display:block;
+	position:absolute;
+	z-index:20;
+	filter:none!important;
+	-webkit-filter:grayscale(0%);
+	overflow:hidden;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+.overlay-effect .img i {
+	font-size:30px;
+}
+.overlay-effect .overlay {
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	opacity:0;
+}
+.overlay-effect .overlay a.expand {
+	left:0;
+	right:0;
+	bottom:47%;
+	margin:0 auto -30px auto;
+}
+.overlay-effect .img.hover .overlay {
+	height:100%;
+	opacity:1;
+}
+.img img {
+	width:-webkit-calc(100%+40px) !important;
+	width:calc(100%+40px) !important;
+	-webkit-transition:opacity 0.35s,-webkit-transform 0.35s;
+	transition:opacity 0.35s,transform 0.35s;
+	-moz-transition:opacity 0.35s,-moz-transform 0.35s;
+	-o-transition:opacity 0.35s,-o-transform 0.35s;
+	-webkit-transform:translate3d(-40px,0,0);
+	transform:translate3d(-40px,0,0);
+	-ms-transform:translate3d(-40px,0,0);
+}
+.img:hover img {
+	-webkit-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0);
+	-ms-transform:translate3d(-40px,0,0);
+}
+.hype {
+	position:absolute;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	top: 50px;
+}
+.footer-info {
+    background-color: rgb(40, 120, 40);
+}
+.sosmed-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    width: 33.33%;
+    opacity: 0.9;
+    outline: none;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -48px;
+}
+
+.sosmed-btn:hover {
+    color: #eeeeee;
+}
+
+.sosmed-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
+}
+
+.sosmed-btn.facebook {
+    background: #3B5998;
+}
+
+.sosmed-btn.twitter {
+    background: #55acee;
+}
+
+.sosmed-btn.email {
+    background: #dd4b39;
+}
+
+#kontak {
+    margin-top: 100px;
+}
+.section-title {
+    border-left: 3px solid aqua;
+    padding-left: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15pt;
+    margin-bottom: 40px;
+}
+.teks {
+    color: rgba(100, 200, 150, 0.9);
+}
+.ad {
+    border-left: 1px solid rgba(100, 200, 150, 0.1);
+    border-right: 1px solid rgba(100, 200, 150, 0.1)
+}
+.contact-info {
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.kontakinfo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(100, 200, 150, 0.2)
+}
+.ikon {
+    color : white;
+}
+.sosmed {
+    color: rgba(100, 200, 150, 0.9)!important;
+}
+.form-control {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
